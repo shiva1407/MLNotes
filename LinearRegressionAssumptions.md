@@ -1,6 +1,18 @@
 # Understanding Assumptions in Linear Regression
 
-When working with linear regression, it's essential to understand the underlying assumptions behind the model. These assumptions help ensure the reliability and validity of the regression analysis. Let's explore these assumptions in detail.
+When working with linear regression, it's essential to understand the underlying assumptions behind the model. These assumptions help ensure the reliability and validity of the regression analysis.
+
+The assumptions of a linear regression model are:
+
+- The relationship between the independent and dependent variables is linear.
+- The residuals, or errors, are normally distributed with a mean of zero and a constant variance.
+- The independent variables are not correlated with each other (i.e. they are not collinear).
+- The residuals are independent of each other (i.e. they are not autocorrelated).
+- The model includes all the relevant independent variables needed to accurately predict the dependent variable.
+
+
+
+Let's explore these assumptions in detail.
 
 ## Trivial Assumptions:
 
