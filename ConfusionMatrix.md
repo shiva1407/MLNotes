@@ -74,3 +74,35 @@ F1-Score = 2 * (Precision * Recall) / (Precision + Recall)
 
 However, the interpretability of the F1-score is poor, so it is often used in combination with other evaluation metrics.
 
+# Recall and Precision in Machine Learning
+
+In machine learning, "recall" and "precision" are two important evaluation metrics used to assess the performance of a classification model, especially in binary classification tasks.
+
+## Recall (Sensitivity or True Positive Rate)
+
+Recall measures the ability of a classifier to correctly identify all relevant instances (true positives) from the total number of actual positive instances.
+
+Mathematically, recall is calculated as the ratio of true positives to the sum of true positives and false negatives:
+
+<img width="247" alt="image" src="https://github.com/shiva1407/MLNotes/assets/31319750/24c5e1e0-eca7-45ce-80fd-d368f67f2d82">
+
+
+Higher recall indicates that the model is able to capture a higher proportion of positive instances without missing too many.
+
+## Precision
+
+Precision measures the accuracy of positive predictions made by the classifier. It indicates the proportion of correctly identified positive instances (true positives) among all instances classified as positive (true positives and false positives).
+
+Mathematically, precision is calculated as the ratio of true positives to the sum of true positives and false positives:
+
+<img width="290" alt="image" src="https://github.com/shiva1407/MLNotes/assets/31319750/561542ce-b2c4-4fd5-8c38-9153a62cb155">
+
+Higher precision indicates that the model makes fewer false positive predictions, i.e., it is more precise in identifying positive instances.
+
+In summary:
+
+- Recall focuses on minimizing false negatives, ensuring that positive instances are not missed.
+- Precision focuses on minimizing false positives, ensuring that positive predictions are accurate.
+- The trade-off between recall and precision is often observed: increasing one metric may lead to a decrease in the other. Therefore, the choice between recall and precision depends on the specific requirements of the problem at hand.
+
+
