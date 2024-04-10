@@ -15,3 +15,10 @@
 - **Central Limit Theorem**: No matter what you're sampling (like candies or test scores), if you take lots of samples and calculate their averages, those averages will tend to follow a bell-shaped curve, even if the individual samples themselves don't.
 
 In essence, the sampling distribution tells you how much your sample results can vary, while the central limit theorem tells you that if you take lots of samples and calculate averages, those averages will follow a predictable pattern, even if the individual samples are different from one another.
+
+
+### Points to note:
+
+- Central Limit Theorem holds true irrespective of the type of distribution of the population.
+Now, we have a way to estimate the population mean by just making repeated observations of samples of a fixed size.
+- Greater the sample size, lower the standard error and greater the accuracy in determining the population mean from the sample mean.
